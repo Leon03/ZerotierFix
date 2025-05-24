@@ -1,8 +1,9 @@
 name: Build APP
 
 on:
-  push:
-    branches: [ "master", "old-android" ]
+  workflow_dispatch: 
+  # push:
+    # branches: [ "master", "old-android" ]
   pull_request:
     branches: [ "master" ]
 
